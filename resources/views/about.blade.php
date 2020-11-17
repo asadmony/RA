@@ -2,44 +2,49 @@
 @section('content')
 
 {{-- about us --}}
-<div class="container">
 
-    {{-- breadcumbs --}}
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">About Us</li>
-    </ol>
-</nav>
+{{-- breadcumbs --}}
+<div class="container-fluid breadcrumb-bg" style="background-image: url('./img/bg-img/aboutus.png');top right no-repeat; background-attachment:fixed;">
+    <div class="container">
+        <nav aria-label="breadcrumb" >
+            <h2 class="mb-3">About Us</h2>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+        </nav>
+    </div>
+</div>
 {{-- /breadcumbs --}}
 
+<div class="container mt-4" >
     <div class="row">
         <div class="col-md-12 py-4">
             <div class="tabs tabs-bottom tabs-center tabs-simple">
-                <ul class="nav nav-tabs justify-content-between">
+                <ul class="nav nav-tabs justify-content-between about-nav px-5">
                     <li class="active">
                         <a href="#tabsNavigationSimpleIcons1" data-toggle="tab" aria-expanded="true">
-                            <p class="mb-none pb-none">Company Profile</p>
+                            <p class="mb-none pb-none font-weight-bold">Company Profile</p>
                         </a>
                     </li>
                     <li class="">
                         <a href="#tabsNavigationSimpleIcons2" data-toggle="tab" aria-expanded="false">
-                            <p class="mb-none pb-none">Mission</p>
+                            <p class="mb-none pb-none font-weight-bold">Mission</p>
                         </a>
                     </li>
                     <li class="">
                         <a href="#tabsNavigationSimpleIcons3" data-toggle="tab" aria-expanded="false">
-                            <p class="mb-none pb-none">Executive Board</p>
+                            <p class="mb-none pb-none font-weight-bold">Executive Board</p>
                         </a>
                     </li>
                     <li class="">
                         <a href="#tabsNavigationSimpleIcons4" data-toggle="tab" aria-expanded="false">
-                            <p class="mb-none pb-none">Fast Facts</p>
+                            <p class="mb-none pb-none font-weight-bold">Fast Facts</p>
                         </a>
                     </li>
                     <li class="">
                         <a href="#tabsNavigationSimpleIcons5" data-toggle="tab" aria-expanded="false">
-                            <p class="mb-none pb-none">Achievements</p>
+                            <p class="mb-none pb-none font-weight-bold">Achievements</p>
                         </a>
                     </li>
                 </ul>
@@ -55,14 +60,14 @@
                                             <span class="word-rotate-items" style="width: 0px; top: 0px;">
                                                 <span>Incessant efforts.</span>
                                                 {{-- <span>Right assistance.</span>
-                                                <span>Determination.</span>
-                                                <span>Incessant efforts.</span> --}}
+                                                    <span>Determination.</span>
+                                                    <span>Incessant efforts.</span> --}}
+                                                </span>
                                             </span>
-                                        </span>
-                                    </strong>
-                                </h2>
+                                        </strong>
+                                    </h2>
+                                </div>
                             </div>
-                        </div>
 
                             <div class="row text-justify">
                                 <div class="col-md-8">
@@ -163,7 +168,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <ul class="history">
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft">
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2003</h3>
@@ -175,7 +180,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2003-2004</h3>
@@ -187,7 +192,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2007</h3>
@@ -199,7 +204,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2011</h3>
@@ -211,7 +216,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2013</h3>
@@ -223,7 +228,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2014</h3>
@@ -236,7 +241,7 @@
                                             </div>
                                         </li>
 
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" >
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2017</h3>
@@ -248,7 +253,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
+                                        <li class="animate__animated animate__rotateInUpLeft" data-appear-animation="animate__rotateInUpLeft">
                                             <div class="thumb">
 
                                                 <h3 style="margin: 55px; margin-top: 65px; color: #0088cc !important; font-weight: bold;">2019</h3>
