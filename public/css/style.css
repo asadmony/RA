@@ -1,0 +1,136 @@
+.logo{
+    height: 60px;
+}
+.nav-item{
+    margin: 3px 10px 3px 10px;
+    text-align: center;
+}
+.nav-item .active {
+    background-color: midnightblue;
+}
+.nav-button{
+    font-size: medium;
+    border: 1px solid rgb(0, 104, 143);
+    border-radius: 5px;
+}
+.nav-button:hover{
+    color: #fff !important;
+    background-color: rgb(0, 104, 143);
+}
+.dropdown-item:hover{
+    color: #fff !important;
+    background-color: rgba(0, 105, 143, 0.842);
+}
+.menus{
+    background-color: rgba(243, 243, 243, 0.418);
+}
+.menu-item{
+    height: 300px;
+    padding: .5rem;
+}
+.menu-item > div {
+    background-color: white;
+    padding: 2rem 0 2rem 0;
+    height: 100%;
+    border-radius: 20px;
+}
+.menu-item > div > h5 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.menu-item > div:hover {
+    background: url(../img/icons/event_hover.png);
+    background-color: rgba(0, 105, 143, 0.76);
+    cursor: pointer;
+    box-shadow: 0px 8px 10px rgb(0, 104, 143);
+    color: white;
+}
+.menu-item > div > img {
+    max-height: 80%;
+    max-width: 100%;
+}
+.menu-item > div > span {
+    max-height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testimonials{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.testimonial-quote{
+    font-size: medium;
+    padding: 12px;
+    background-color: rgba(240, 230, 140, 0.349);
+    border-radius: 10px;
+}
+.services-left  p {
+    padding-right: 40px;
+}
+.services-right  p {
+    padding-left: 40px;
+}
+.universities{
+    background-color: rgb(243, 243, 243);
+}
+.university-item{
+    height: 100px;
+}
+.courses-items > div > img {
+    max-width: 100%;
+}
+.calender{
+    background-color: white;
+    height: 60px;
+    width: 100px;
+}
+.calender > h3{
+    margin: 0;
+    padding: 1rem;
+}
+.month {
+    background-color: rgba(0, 104, 143, 0.993);
+    width: 100px;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    color: white;
+}
+.article-button{
+    position: absolute;
+    margin: 0;
+    bottom: 5px;
+}
+@property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+}
+.user{
+    --num: 10000;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+.country-name{
+    padding: 5px 0 ;
+    position: relative;
+    bottom: 5rem;
+    background-color: rgba(128, 128, 128, 0.445);
+}
+.country-name > span {
+    color: rgb(251, 251, 251);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.services-item{
+    height: 120px;
+}
+
+.services-item > h3 {
+    margin: 0;
+    padding: 0;
+}

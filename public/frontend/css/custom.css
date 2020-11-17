@@ -1,0 +1,595 @@
+/* Add here all your CSS customizations */
+
+p {
+    color: #333 !important;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+body {
+    color: #333 !important;
+    overflow:auto;
+}
+
+/*navigation bar css*/
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.head-top {
+    float: none !important;
+    font-size: 15px !important;
+    color: #00337f;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .head-top {
+        font-size: 0.7em !important;
+    }
+    .header-top{
+        padding:0px !important;
+    }
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#humbergside {
+    width: 40%;
+    position: fixed;
+    /*top: 0;*/
+    top: 50px;
+    right: -40%;
+    height: 100vh;
+    /* z-index: 999; */
+    z-index: 1031;
+    /*background: #fff;*/
+    /*background: rgba(0, 0, 0, 0.84);*/
+    background: rgba(255, 255, 255, 0.75);
+    color: #222;
+    transition: all 0.7s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+    #humbergside.active {
+        right: 0;
+    }
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    /*background: #ffa8a8;*/
+    color: #222;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+    #dismiss:hover {
+        background: #fff;
+        color: #222;
+    }
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    display: none;
+}
+
+#humbergside .sidebar-header {
+    padding: 28px;
+    /* background: #0088cc; */
+    background: rgba(0, 0, 0, 0.84);
+}
+
+#humbergside ul.components {
+    /*padding: 20px 0;*/
+    padding: 20px;
+    border-bottom: 1px solid #47748b;
+    margin-bottom: 0px;
+}
+
+#humbergside ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#humbergside ul li a {
+    padding: 10px;
+    /*font-size: 1.1em;*/
+    display: block;
+    font-weight: 600;
+}
+
+/*#humbergside ul li a:hover {
+        color: #0088cc;
+        background: #fff;
+    }*/
+
+#humbergside ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: rgba(26, 26, 26, 0.09019607843137255);
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropnav a[aria-expanded="false"]::before, .dropnav a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+.dropnav a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    /*font-size: 0.9em !important;
+    padding-left: 30px !important;*/
+    /*  background: #6d7fcc; */
+}
+
+ul.CTAs {
+    padding: 20px;
+    /*background: rgba(0, 0, 0, 0.84);*/
+    margin: 20px 0px 0px 0px;
+}
+
+    ul.CTAs a {
+        text-align: center;
+        font-size: 0.9em !important;
+        display: block;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+/*a.download {
+    background: #fff;
+    color: #F76C6C;
+}*/
+
+a.article, a.article:hover {
+    background: rgba(0, 0, 0, 0.84) !important;
+    color: #fff !important;
+}
+
+.header-container {
+    width: 1320px;
+}
+.collapse.in {
+    display: block;
+}
+ul.nav-list li .sidelink:hover {
+    background-color: inherit;
+    color:#222;
+}
+#humbergsideCollapse {
+    background-color: #F76C6C;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.serviceMenu {
+    /*min-width: 470px !important;*/
+    min-width: 350px !important;
+}
+.countryMenu {
+    min-width: 400px !important;
+}
+.testPrep {
+    min-width: 525px !important;
+}
+
+/*End navigation bar css*/
+
+/*===========================================================================================*/
+
+/*whatsup btn css*/
+.whchat-launch-button {
+    font-size: 100% !important;
+    position: fixed !important;
+    bottom: 50px !important;
+    right: 10px !important;
+    left: auto !important;
+    height: 48px !important;
+    width: auto !important;
+    /*z-index: 2147483646 !important;*/
+    z-index: 99;
+    background: #4dc247 !important;
+    border: 0 !important;
+    border-radius: 100px !important;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.25) !important;
+    box-sizing: border-box !important;
+    padding: 0 20px !important;
+    transition: all .4s,bottom .8s ease-in-out !important;
+    cursor: pointer !important;
+    outline: none !important;
+    display: inline-block !important;
+    margin: 0 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    animation-name: loadBubble;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .2s;
+}
+
+    #whchat-wrapper svg {
+        position: initial !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        box-shadow: none !important;
+        border: none !important;
+        opacity: 1 !important;
+        width: initial;
+    }
+
+    .whchat-launch-button svg {
+        width: 36px !important;
+        display: inline-block !important;
+        height: 48px !important;
+        fill: white;
+    }
+
+    #whchat-wrapper .whchat-launch-button .whchat-button-text {
+        color: #ffffff !important;
+    }
+
+    .whchat-launch-button .whchat-button-text {
+        color: #fff !important;
+        display: inline-block !important;
+        
+        font-size: 1.3em !important;
+        line-height: 48px !important;
+        font-weight: bold !important;
+        /*margin: 0 0 0 12px !important;*/
+        max-width: 200px !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        vertical-align: top !important;
+        white-space: nowrap !important;
+        padding: 0 !important;
+        transition: .6s ease-in-out !important;
+    }
+
+    #whchat-wrapper .whchat-launch-button {
+        background-color: #8852C6 !important;
+    }
+/*End whatsup btn css*/
+
+/*====================================================================================*/
+
+/*Home page slide tesimonials css*/
+
+
+#side-testimo {
+    position: absolute;
+    left: 80%;
+    top: 170px;
+    background: #353333;
+    /*border-radius: 0 5px 5px 0;*/
+    color: #fff;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    -webkit-transform: rotate(90deg) translate(0,-20px);
+    transform: rotate(90deg) translate(0,-20px);
+}
+
+#testimo-box-wrapper {
+    position: fixed;
+    width: 400px;
+    top: 140px;
+    left: -400px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 1050;
+}
+
+    #testimo-box-wrapper.testbox-open {
+        left: 0;
+    }
+
+    #testimo-box-wrapper.testbox-closed {
+        left: -400px;
+    }
+
+#habla_window_div {
+    margin: 0 !important;
+}
+
+#testimo-box-container {
+    background: rgba(34, 34, 34, 0.82);
+    padding:10px;
+}
+
+
+/*End Home page slide tesimonials css*/
+
+/*====================================================================================*/
+
+/*Our top admit css*/
+.topadmit {
+    margin: -72px 0 0 0;
+    z-index: 99;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.64);
+}
+.col-topadmit {
+    border-right: 1px solid #fff;
+}
+
+
+
+/*End Our top admit css*/
+/*====================================================================================*/
+/* Responsive */
+@media (min-width: 992px) {
+    #header .header-nav-main nav > ul > li > a {
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 10px 13px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    #header .header-nav-main{
+        margin:0px;
+    }
+}
+@media (max-width: 991px) {
+    .m-down {
+        margin-bottom: 10px;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        margin: 0px;
+    }
+
+    .humberg-icon {
+        color: #0088cc;
+        float: none;
+    }
+
+    .sidenav {
+        width: 100%;
+    }
+
+    #humbergside {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        /* z-index: 999; */
+        z-index: 1050;
+        background: #fff;
+        /* background: rgba(0, 0, 0, 0.84); */
+        color: #222;
+        transition: all 0.7s;
+        overflow-y: scroll;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    #testimo-box-wrapper.testbox-closed {
+        left: -300px;
+    }
+
+    #testimo-box-wrapper {
+        width: 300px;
+        left: -300px;
+        top: 90px;
+    }
+
+    #side-testimo {
+        left: 73%;
+    }
+
+    #humbergsideCollapse {
+        color: #0088cc;
+    }
+
+    .serviceMenu {
+        min-width: 100%;
+    }
+    .countryMenu {
+        min-width: 100%;
+    }
+    .topadmit {
+        margin:0px;
+    }
+    .col-topadmit {
+        border-right:none;
+    }
+}
+
+.lg-outer #lg-share {
+    display: none !important;
+}
+.lg-outer #lg-download {
+    display: none !important;
+}
+
+@media (max-width: 320px) {
+    .book_appointment {
+        font-size: 13px;
+    }
+}
+
+/*-------------------------------------*/
+.centeredText {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.28);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0px;
+    width: 90%;
+    font-size:18px;
+}
+
+.mt-5 {
+    margin-left: 2rem !important;
+}
+
+
+.slider_box:hover {
+    background: url(../img/patterns/event_hover.png);
+    cursor: pointer;
+    box-shadow: 0px 10px 15px #00002e;
+    background-color: #065d9e;
+}
+
+.slider_box {
+    background: #f2f4f9;
+    /*padding: 45px 30px;*/
+    padding: 20px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid #065d9e;
+}
+    .slider_box img {
+        display: block;
+        /*margin: 35px auto;*/
+        margin: 0px auto;
+        /*width: 214px;*/
+        margin-bottom:10px;
+        min-height: 160px;
+        object-fit: contain;
+    }
+.slider_box h3 {
+    font-size: 40px;
+    color: #203446;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.slider_box h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #203446;
+}
+    .slider_box h5 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #203446;
+        margin-bottom: 4px;
+    }
+    .slider_box h6 {
+        font-size: 18px;
+        color: #203446;
+    }
+    .slider_box:hover h3, .slider_box:hover h4, .slider_box:hover h5, .slider_box:hover h6, .slider_box:hover p {
+        color: #fff;
+    }
+
+    /* Toast  css */
+.toast {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 340px;
+    border-radius: 4px;
+    box-shadow: #0088ccbf 1px 1px 5px;
+    background-color: rgb(0, 136, 204);
+    padding: 10px;
+    color: #ffffff;
+    opacity: 1;
+    animation: toast 500ms cubic-bezier(.23,.82,.16,1.46);
+    animation-iteration-count: 1;
+}
+
+
+@keyframes toast {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+    /* End Toast css */
+
+.homeTestimonial:after {
+    position: absolute;
+    top: -0 !important;
+    left: 0;
+    content: " ";
+    background: url(img/testimonial.bg-top.html);
+    background-size: 100% 100px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    z-index: 99;
+}
+
+.homeTestimonial {
+    min-height: 375px;
+    position: relative;
+    background: url(../img/slides/slide-bg-full-3-dark.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.testimonial .testimonial-author img {
+    max-width: 85px !important;
+}
+.testimonial.testimonial-style-3 blockquote{
+    margin-top:25px;
+}
