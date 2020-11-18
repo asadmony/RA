@@ -30,7 +30,7 @@
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item active"><a href="/" class="nav-link text-uppercase font-weight-bold nav-button"><i class="fas fa-home fa-lg"></i> <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="{{ route('about') }}" class="nav-link text-uppercase font-weight-bold nav-button">ABOUT</a></li>
                     <li class="nav-menu nav-item dropdown">
@@ -64,15 +64,14 @@
                     </li>
                     <li class="nav-item"><a href="{{ route('contact') }}" class="nav-link text-uppercase font-weight-bold nav-button">Contact</a></li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 text-center">
+                {{-- <form class="form-inline my-2 my-lg-0">
                     <div class="input-group">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                     <div class="input-group-append">
                         <button class="btn search-button text-white" type="button"><i class="fas fa-search"></i></button>
                     </div>
                     </div>
-                    {{-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> --}}
-                </form>
+                </form> --}}
             </div>
         </div>
     </nav>

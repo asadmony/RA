@@ -328,7 +328,18 @@
         {{-- offers --}}
         <section class="py-5">
             <div class="container">
-                <h2 class="text-center">Route Alternative is the most <strong>trusted</strong>  International Education Consulting Company in Bangladesh.</h2>
+                <div class="rotatingText-content">
+                    <h2 class="">Route Alternative is the most
+                        {{-- <h2 class="rotatingText-adjective">beautiful</h2>
+                        <h2 class="rotatingText-adjective">maintainable</h2>
+                        <h2 class="rotatingText-adjective">perfect 👌</h2> --}}
+                        <span style="margin-right:100px;">
+                            <strong class="rotatingText-adjective" > helpful</strong>
+                            <strong class="rotatingText-adjective" > popular</strong>
+                            <strong class="rotatingText-adjective" > trusted</strong>
+                        </span>
+                        International Education Consulting Company in Bangladesh.</h2>
+                    </div>
                 <p class="text-center">Route Alternative has a huge success rate <br> in sending almost 99% of students for study abroad</p>
                 <div class="row pt-2">
                     <div class="col-md-3 col-xs-6 text-center animate__animated animate__bounceIn">
@@ -398,6 +409,5 @@
             </div>
         </section>
         {{-- /articles --}}
-
 
 @endsection

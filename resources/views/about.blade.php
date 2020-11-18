@@ -22,37 +22,36 @@
         <div class="col-md-12 py-4">
             <div class="tabs tabs-bottom tabs-center tabs-simple">
                 <ul class="nav nav-tabs justify-content-between about-nav px-5">
-                    <li class="active">
-                        <a href="#tabsNavigationSimpleIcons1" data-toggle="tab" aria-expanded="true">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#tabsNavigationSimpleIcons1" data-toggle="tab" aria-expanded="true">
                             <p class="mb-none pb-none font-weight-bold">Company Profile</p>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="#tabsNavigationSimpleIcons2" data-toggle="tab" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabsNavigationSimpleIcons2" data-toggle="tab" aria-expanded="false">
                             <p class="mb-none pb-none font-weight-bold">Mission</p>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="#tabsNavigationSimpleIcons3" data-toggle="tab" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabsNavigationSimpleIcons3" data-toggle="tab" aria-expanded="false">
                             <p class="mb-none pb-none font-weight-bold">Executive Board</p>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="#tabsNavigationSimpleIcons4" data-toggle="tab" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabsNavigationSimpleIcons4" data-toggle="tab" aria-expanded="false">
                             <p class="mb-none pb-none font-weight-bold">Fast Facts</p>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="#tabsNavigationSimpleIcons5" data-toggle="tab" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabsNavigationSimpleIcons5" data-toggle="tab" aria-expanded="false">
                             <p class="mb-none pb-none font-weight-bold">Achievements</p>
                         </a>
                     </li>
                 </ul>
-                <div class="tab-content">
+                <div class="tab-content pt-4">
                     <div class="tab-pane active" id="tabsNavigationSimpleIcons1">
-
                         <div class="row mt-lg">
-                            <div class="col-md-12 my-4 text-center">
+                            <div class="col-md-12 mb-3 text-center">
                                 <h2 class="word-rotator-title">
                                     A dream doesn't become reality through magic; it takes
                                     <strong>
@@ -280,8 +279,8 @@
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-md-12">
+                            <div class="row ">
+                                <div class="col-md-12  text-justify">
                                     <h4>Our Mission:</h4>
                                     <p>Grad-Dreams' mission is to serve the international student community by guiding them in scaling the right academic career graph that matches the international standards among all the enormous education opportunities globally. Also to give the best possible education opportunities considering the students qualifications, interests, ambition, potential, that is not only cost efficient but also holds a promise for a bright and sound future.</p>
                                     <ul class="list list-icons list-primary text-justify">
@@ -294,7 +293,7 @@
                             </div>
 
                             <div class="row mt-lg">
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-justify">
                                     <h4>Our Values:</h4>
                                     <p>We believe that apart from being a service provider as an education consulting organization we have to also play a social role in building the future of our students and in turn our society. We take immense pride in this fact that we are a catalyst in this process and with that, comes a great responsibility which we always understand humbly. Following are the core values we hold as an organization:</p>
                                     <ul class="list list-icons list-primary">
@@ -308,7 +307,7 @@
                         <div class="tab-pane" id="tabsNavigationSimpleIcons3">
 
                             <div class="row mt-lg">
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-justify">
                                     <h4>Mr. Sunit Survase, <span class="text-sm">Founder Director</span></h4>
                                     <p>Mr. Sunit Survase is the Founder - Director of Grad-Dreams Consulting, one of the foremost international education consulting companies in India. True to his vision, he has founded and built the organization around the pillars of 'think-ahead' futuristic approach, trust and satisfaction.</p>
                                     <p>An accomplished and result-oriented professional, Sunit is having 14 years of versatile experience of business development, planning &amp; commercial management of an education consulting firm with comprehensive technical knowledge. His wide experience in understanding the structure &amp; policies of universities, schools &amp; colleges around the world has enabled him to provide customized solutions required by these institutions for student recruitments. Till date he has mentored a number of students &amp; professionals interested in pursuing further education in USA &amp; Europe, especially at the Master’s &amp; PhD level. A North America education expert, Sunit has dealt with the most exhaustive recruitment processes of several top American &amp; European universities. He also has the expertise to analyze and project the profile of the prospective student in the best way that guarantees best possible academic career.</p>
@@ -319,7 +318,7 @@
                             </div>
 
                             <div class="row mt-lg">
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-justify">
                                     <h4>Mrs. Karuna Survase, <span class="text-sm">Director</span></h4>
                                     <p>Karuna holds a Master’s Degree in Computer Science from the University of Pune and has worked as a software engineer with software companies like IBM, Nevis Networks, and TCS. As a manager with a technological background she has served in different departments at Grad-Dreams for more than a decade planning, building, optimising business and organisational processes.</p>
                                     <p>Karuna brings to the table, her expertise working on different domains, which works best in analyzing the industry dynamics, student’s requirements and an optimum academic option. She makes important contribution in organizational development and team building activities at Grad-Dreams. She has an innate flair for writing and has written several articles for Grad-Dreams Consulting. Thus contributing to the formation and growth stage of Grad-Dreams and WhizStorm on a strategic, business and technical level. </p>
@@ -330,7 +329,7 @@
                             </div>
 
                             <div class="row mt-lg">
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-justify">
                                     <h4>Dr. S. Ramachandran</h4>
                                     <p>Dr. Ramachandran is currently holding the position of Director of the PTVA’s Business School in Mumbai. He holds a PhD in Human Resource Management from the XLRI. He is a professional with more than 35 years of experience in Management &amp; Administration. In last few years he has held key positions like Executive Director (India China Chamber of Commerce &amp; Industry) , Joint Secretary (FICCI) and Chief of Administrative Services (Indira Gandhi Institute of Development and Research). Dr. Ramachandran has varied experience in Administration, Personnel, and trade promotion in premier training and research institutions across in India. He is associated with a number of management institutions and IGNOU as a visiting faculty imparting education in Management.</p>
                                     <p>Dr. Ramachandran is committed to take the company to newer levels of corporate governance. He can be reached at sram@gdx.in</p>
